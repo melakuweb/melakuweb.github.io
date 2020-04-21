@@ -1,0 +1,41 @@
+/* Extra Features, i have added the following 
+1. Background: background image for the whole site
+2. Favicon:  favicon added
+3. Pie bullet: image bullet
+
+*/
+
+h1{
+	font-family: "Lucida Sans Unicode", Helvetica, Arial;
+	font-size: 22pt;
+	text-align:center;
+	
+}
+h2{
+	font-family: "Lucida Sans Unicode", Helvetica, Arial;
+	font-size: 18pt;
+	text-align:left;
+}
+h1,h2{
+	color:#A4A400;
+	background-color:#F0F0F0;	
+	text-decoration: underline;
+}
+
+
+body{
+	font-family: Georgia, Garamond,;
+	font-size: 11pt;
+	color:#404040;
+	background-image: url("../images/silverware.jpg");	
+}
+a{
+	color:#A4A400;
+}
+div pre{
+	background-color:#FFFFA8;
+	font-style: italic;
+}
+ul {
+  list-style-image: url("../images/pie_bullet.png");
+}
