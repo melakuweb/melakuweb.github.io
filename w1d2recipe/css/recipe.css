@@ -39,3 +39,6 @@ div pre{
 ul {
   list-style-image: url("../images/pie_bullet.png");
 }
+span{
+	text-decoration:line-through;
+}
