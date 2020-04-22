@@ -1,0 +1,21 @@
+/* Extra Features, i have added the following 
+1. Background: background image for the whole site
+2. Favicon:  favicon added
+3. Pie bullet: image bullet
+
+*/
+
+h1{
+	
+	font-size: 32pt;
+	text-align:center;
+	
+}
+h1,h2{
+color:#AAB2FF;
+}
+
+
+a{
+	color:red;
+}
