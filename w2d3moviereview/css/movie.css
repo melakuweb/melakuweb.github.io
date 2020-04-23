@@ -23,6 +23,7 @@ body{
 	border-color:#8e8a67;
 	
 	
+	
 }
 span{
 	color:red;
@@ -40,7 +41,7 @@ span{
 	width:650px;
 }
 #review{
-	
+	background-color:red;
     width:650px;
 }
 
@@ -73,9 +74,17 @@ span{
   
 	
 }
+
 #rtop{	
 }
-#rbottom,#page
+#rbottom
+{
+	
+	padding-left:10px;
+	padding-right:10px;
+	box-sizing:border-box;
+}
+#rbottom,#right,#page
 {
 	
 	background-color:#a1b163;
@@ -83,7 +92,7 @@ span{
 #rtop, #rbottom{
 	width:250px;
 	margin: 0px;
-	padding:0px;
+	
 }
 #page{
 	text-align:center;
