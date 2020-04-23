@@ -92,6 +92,6 @@ span{
 }
 #bottom{	
     float:right;	
-	display:inline-block;
+	display:inline;
 	width:200px;
 	}
