@@ -27,11 +27,11 @@ span{
 }
 #ltop{
 	background-image: url("../images/rbg.png");	
-	width:650;
+	width:650px;
 }
 #review{
 	
-    width:650;
+    width:650px;
 }
 
 .reviews{
@@ -75,6 +75,6 @@ span{
 	background-color:#a1b163;
 }
 #bottom{	
-	float:right
+	float:right;
 	width:900px;	
 }
