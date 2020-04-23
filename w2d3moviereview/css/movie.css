@@ -1,3 +1,7 @@
+/* file name: movie.txt
+Author: melaku Tegegne
+desc: this css file define the style for moviereview html
+*/
 #bannerbg {
 	background-image: url("../images/bannerbg.png");		
 }
@@ -61,18 +65,18 @@ span{
   width:250px;
 	
 }
-#rtop{
-	width:250px;
-	margin: 0px;
-	padding:0px;
-	
+#rtop{	
 }
 #rbottom
 {
+
+	
+	background-color:#a1b163;
+}
+#rtop, #rbottom{
+	width:250px;
 	margin: 0px;
 	padding:0px;
-	width:250px;
-	background-color:#a1b163;
 }
 #bottom{	
 	float:right;
