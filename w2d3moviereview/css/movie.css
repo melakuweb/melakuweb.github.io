@@ -15,11 +15,14 @@ body{
 	background-image: url("../images/background.png");
 }
 #container{	
+
 	width:900px;
 	margin:auto;
 	border-radius: 10px;
 	border: 2px solid #73AD21;
 	border-color:#8e8a67;
+	
+	
 }
 span{
 	color:red;
@@ -29,6 +32,8 @@ span{
 #left{	
 	float:left;
 	width:650px;
+	margin:0px;
+	
 }
 #ltop{
 	background-image: url("../images/rbg.png");	
@@ -64,13 +69,14 @@ span{
 #right{	
  display:inline-block;
   width:250px;
+  margin:0px;
+  
 	
 }
 #rtop{	
 }
-#rbottom
+#rbottom,#page
 {
-
 	
 	background-color:#a1b163;
 }
@@ -79,7 +85,13 @@ span{
 	margin: 0px;
 	padding:0px;
 }
-#bottom{	
-	
-	width:900px;	
+#page{
+	text-align:center;
+	margin:0px;
+	padding:0px;
 }
+#bottom{	
+    float:right;	
+	display:inline-block;
+	width:200px;
+	}
