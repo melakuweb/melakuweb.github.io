@@ -1,0 +1,22 @@
+/*-- documentation about this file 
+filename:style.css
+author: Melaku Teegne
+description: this file provides some styles for index.html 
+date: 25 April 2020
+
+*/
+img{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+#banner{
+	height:10wv;
+	background-image: url("../images/banner1.jpg");
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	background-repeat:no-repeat;
+	background-size: 1100px 500px;
+	
+	
+}

@@ -40,11 +40,17 @@ span{
 	float:left;
 	width:650px;
 	margin:0px;
+	border-top-left-radius: 15px;
+	
+}
+#ltop img{
 	
 }
 #ltop{
 	background-image: url("../images/rbg.png");	
 	width:650px;
+	border-top-left-radius: 15px;
+	
 }
 #review{
 	background-color:red;
@@ -81,8 +87,11 @@ span{
 	
 }
 
-#rtop{	
+#rtop img {	
+	border-top-right-radius: 5px;
 }
+
+
 #rbottom
 {
 	
@@ -104,10 +113,13 @@ span{
 	text-align:center;
 	margin:0px;
 	padding:0px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 #bottom{
     opacity: 0.4;
     position: fixed;
     right: 1px;
-    bottom: 0px;
+	bottom: 0px;
+	
 	}
