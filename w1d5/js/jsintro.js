@@ -7,6 +7,8 @@ date: 24 April 2020
 
 */
 
+
+
 "use strict";
 console.log("Hello js");
 function max(num1, num2) {
@@ -57,13 +59,20 @@ function multiply(nums) {
 }
 console.log(multiply([1,2,3,4]));
 
-function reverse(inputstr) {
-    let rstr='';
-    for(let i=0; i<inputstr.length;i++){
-        rstr=inputstr[i]+rstr;
-    }
-    return rstr;   
+function reverse(instr) {
+    if ( instr.length == 1)
+       return instr[0];
+   return instr[instr.length-1] + reverse(instr.substring(0, instr.length-1));   
 }
+
+
+//function reverse(inputstr) {
+//    let rstr='';
+//    for(let i=0; i<inputstr.length;i++){
+//        rstr=inputstr[i]+rstr;
+//    }
+//    return rstr;   
+//}
 console.log(reverse("jag testar"));
 
 /* takes an array of words and an integer i and  returns a new array 
@@ -168,7 +177,6 @@ function findSecondBiggest(nums) {
             max =  nums[i];  
         }
     }
-
     return secondMax;
 }
 
