@@ -1,0 +1,118 @@
+<!-- documentation about this file 
+filename:webform2.html
+author: Melaku Teegne
+description: this file describes html markup for building a simple sign in form
+date: 30 April 2020
+
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Jquery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery/jq.js"></script>
+    <title>web form 2!</title>
+  </head>
+  <body>
+      <!--
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        
+    </nav>
+      -->
+  
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #36a7e7!important;color:#ff0000!important;">
+        <a class="navbar-brand" style="color:#ffffff!important;" href="#">MUM Golden dom market ::: SRM System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText" >
+          <ul class="navbar-nav mr-auto" >
+            <li class="nav-item active" >
+              <a class="nav-link" style="color:white;"  href="#">| <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:white;" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"style="color:white;"  href="#">|</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:white;"  href="#">Suppliers</a>
+            </li>
+          </ul>
+          <span class="navbar-text mr-2" style="color:white;" >
+            Hello!
+          </span>
+          
+          <button type="button" >sing out</button>
+        </div>
+      </nav>
+
+
+    <div class="container">
+        <h4></h4>
+        <h3 style="font-weight: normal;">New Product Form</h3>
+        <form id='Form2'>
+            <div class="form-row">
+              <div class="col">
+                    <div class="form-group">
+                    <label  for="ProductNumber">Product Number</label>
+                    <input id="input1" type="text" class="form-control" id="ProductNumber"  >                    
+                  </div>
+                  <div class="form-group">
+                    <label  for="name">Name</label>
+                    <input id="input2" type="text" class="form-control" id="name" >
+                  </div>
+                  <div class="form-group">
+                    <label  for="unitpriace">Unit Price</label>
+                    <input id="input3" type="text" class="form-control" value="0.0" id="unitpriace" >
+                  </div>
+                  
+              </div>
+              <div class="col">
+                <div class="form-group">
+                    <label  for="quantity">Quantity in stock </label>
+                    <input id="input4" type="text" class="form-control" value="0" id="quantityr"  >                    
+                  </div>
+                  <div class="form-group">
+                    <label for="supplier">Supplier:</label>
+                    <select id="input5" class="form-control"  id="supplier">
+                      <option selected>Select a supplier</option>
+                      <option>supplier 1</option>
+                      <option>supplier 2</option>      
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label  for="datesupplied">Date supplied</label>
+                    <input id="input6" type="date" date-format="yyyy/mm/dd" class="form-control"  id="datesupplied" >
+                    <small id="emailHelp" class="form-text text-muted">Enter a valid Date</small>
+                  </div>
+                  <div class="form-group float-right">
+                    <button type="button" class="btn btn-outline-info mr-4" style="color:	#033c73">reset</button>
+                    <button type="button" class="btn btn-outline-danger mr-4">Cancel</button>
+                    <button id="btnAddProduct" type="button" class="btn btn-outline-primary">Add product</button>
+                  </div>
+
+              </div>
+            </div>
+          </form>
+          <div>
+            <p></p>
+          </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

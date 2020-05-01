@@ -254,14 +254,10 @@ let x = setInterval(function() {
      let minutes = curdatetime.getMinutes();
      let seconds = curdatetime.getSeconds();
   
-    // Display the result in the element with id="demo"
+    // Display the result in the element with id="datetimedatetime"
     let datetime = document.getElementById("datetime");
     datetime.innerHTML = years + "-" + months + "-" + days + " " + hours + ":"+ minutes + ":" + seconds ;
     datetime.style.color="green";
-    datetime.style.fontWeight="700";
-    //+ minutes + ":" + seconds ;
-    //document.getElementById("datetime").innerHTML = years + "-" + months + "-" + days + " " + hours + ":"
-    //+ minutes + ":" + seconds ;
-  
+    datetime.style.fontWeight="700"; 
   
   }, 1000);
